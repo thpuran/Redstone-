@@ -45,13 +45,11 @@ With expertise in both front-end and back-end development, I create responsive, 
 
 I am always eager to take on new challenges, whether it's developing AI-driven applications, securing digital assets, or crafting high-performance websites. Let’s collaborate and bring ideas to life!
                     </p>
-
-                    <div class="btn-group">
+ <div class="btn-group">
                        <a href="#" class="btn active">Download code</a>
                        <a href="#" class="btn">Contact</a>
                     </div>
-
-                    <div class="social">
+ <div class="social">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -70,12 +68,12 @@ I am always eager to take on new challenges, whether it's developing AI-driven a
         var nav=document.querySelector(".navlinks");
         var links=document.querySelector(".navlinks li");
 
-        togglebtn.addEventListener("click", function(){
+  togglebtn.addEventListener("click", function(){
             this.classList.toggle("click");
             nav.classList.toggle("open");
         })
 
-        var typed=new Typed(".input",{
+ var typed=new Typed(".input",{
             strings:["Frontend Developer","blackend Developer","Web Developer","enthical hacker","AI Developer"],
             typedSpeed:70,
             backSpeed:55,
